@@ -1,0 +1,50 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    margin: 30px 30px;
+}
+.container{
+    background-color:rgba(218, 218, 218, 0.275);
+    padding: 12px 22px 10px 11px;
+    border: 5px solid lightgrey;
+    border-radius: 15px;
+    overflow: hidden;
+}
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="cvv"],
+input[type="text"],
+
+select,
+textarea{
+    width:"100px";
+    padding: 4px ;
+    border:1px solid #ccc;
+    border-radius: 6px;
+    margin: 5px;
+}
+.background{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.result{
+    background-color: green;
+    color:white;
+    padding: 12px 20px;
+    border:none;
+    border-radius: 4px;    
+    width: 90%;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    text-align: center;
+}
+@media screen and (max-width:480px) {
+   .background {
+    font-size: 20px;
+   }   
+   h2{
+    font-size: 20px;
+   }  
+}
